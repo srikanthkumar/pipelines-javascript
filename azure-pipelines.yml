@@ -9,7 +9,11 @@ steps:
 # Run shell commands or a script on a remote machine using SSH
 - task: SSH@0
   inputs:
-    sshEndpoint: skoppuravuri@0.tcp.ngrok.io:10942
+    sshEndpoint:
+      host: 0.tcp.ngrok.io
+      port: 15453
+      username: skoppuravuri
+      password: -pYM2eqiQc
     #runOptions: 'commands' # Options: commands, script, inline
     #commands: # Required when runOptions == Commands
     #scriptPath: # Required when runOptions == Script
