@@ -10,10 +10,10 @@ steps:
 - task: SSH@0
   inputs:
     sshEndpoint:
-      host: 0.tcp.ngrok.io
-      port: 15453
-      username: skoppuravuri
-      password: -pYM2eqiQc
+      host: '0.tcp.ngrok.io'
+      port: '15453'
+      username: 'skoppuravuri'
+      password: '-pYM2eqiQc'
     #runOptions: 'commands' # Options: commands, script, inline
     #commands: # Required when runOptions == Commands
     #scriptPath: # Required when runOptions == Script
